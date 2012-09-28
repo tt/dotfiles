@@ -3,7 +3,7 @@
 autoload -U zgitinit && zgitinit
 
 prompt_tt_setup() {
-	export PROMPT='%m%b%f:%F{blue}%1~%f %(!.#.%%) '
+	export PROMPT='%m%b%f:%F{blue}%1~%f$(prompt_tt_vcs) %(!.#.%%) '
 	export RPROMPT=''
 }
 
@@ -18,7 +18,7 @@ prompt_tt_git() {
 	echo -n "$(zgit_head)"
 
 	if zgit_inworktree; then
-		echo -n "$(zgit_isindexclean || print '+')"
+		echo -n "$(zgit_isindexclean || print 'n')"
 		echo -n '%F{magenta}'
 		echo -n "$(zgit_isworktreeclean || print '!')"
 		echo -n "$(zgit_hasunmerged && print '*')"
