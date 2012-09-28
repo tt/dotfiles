@@ -4,6 +4,8 @@ setopt promptsubst
 autoload -U promptinit && promptinit
 prompt tt
 
+autoload -U titleinit && titleinit
+
 export EDITOR='vim'
 
 # Aliases
