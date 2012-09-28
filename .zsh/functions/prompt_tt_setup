@@ -4,3 +4,5 @@ prompt_tt_setup() {
 	export PROMPT='%m%b%f:%F{blue}%1~%f %(!.#.%%) '
 	export RPROMPT=''
 }
+
+prompt_tt_setup "$@"
