@@ -1,5 +1,9 @@
 #!/bin/sh
 
+setopt promptsubst
+autoload -U promptinit && promptinit
+prompt tt
+
 export EDITOR='vim'
 
 # Aliases
