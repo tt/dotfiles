@@ -1,0 +1,7 @@
+[color]
+	ui = true
+[format]
+	pretty = format:* %C(yellow)%h%Creset%C(red)%d%Creset %s %Cgreen(%ar) %C(bold green)<%an>%Creset
+[user]
+	name = Troels Thomsen
+	email = troels@thomsen.io
