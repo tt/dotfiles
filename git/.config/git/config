@@ -1,3 +1,15 @@
+[alias]
+	aa = add --all
+	ai = add --interactive
+	br = branch
+	ca = commit --amend
+	ci = commit
+	co = checkout
+	dc = diff --cached
+	di = diff
+	ff = merge --ff-only
+	lg = log --graph
+	st = status
 [user]
 	email = troels@thomsen.io
 	name = Troels Thomsen
