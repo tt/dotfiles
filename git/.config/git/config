@@ -10,6 +10,8 @@
 	ff = merge --ff-only
 	lg = log --graph
 	st = status
+[commit]
+	verbose = true
 [user]
 	email = troels@thomsen.io
 	name = Troels Thomsen
