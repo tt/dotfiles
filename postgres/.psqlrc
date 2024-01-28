@@ -1,0 +1,25 @@
+\x auto
+\timing
+\set COMP_KEYWORD_CASE upper
+\pset pager off
+\pset null '(null)'
+
+-- https://www.digitalocean.com/community/tutorials/how-to-customize-the-postgresql-prompt-with-psqlrc-on-ubuntu-14-04
+-- https://wiki.postgresql.org/wiki/Psqlrc
+-- https://thoughtbot.com/blog/improving-the-command-line-postgres-experience
+-- https://github.com/hgmnz/dotfiles/blob/master/psqlrc
+-- https://www.postgresql.org/docs/9.3/app-psql.html
+-- https://www.craigkerstiens.com/2013/02/13/how-i-work-with-postgres/
+-- https://www.citusdata.com/blog/2017/07/16/customizing-my-postgres-shell-using-psqlrc/
+
+-- https://en.wikipedia.org/wiki/Null_symbol
+-- https://en.wikipedia.org/wiki/Null_character
+-- https://en.wikipedia.org/wiki/Null_sign
+-- https://en.wikipedia.org/wiki/Null_(SQL)
+
+--\pset null '␀'
+--\pset null '¤'
+--\pset null '∅'
+\pset null 'ω'
+
+\set HISTFILE ~/.psql_history-:DBNAME
