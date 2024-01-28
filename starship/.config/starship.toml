@@ -71,9 +71,12 @@ disabled = true
 style = "purple"
 #style = "red"
 #format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#394260)]($style)'
-format = '([$all_status$ahead_behind]($style))'
+format = '([$all_status( $ahead_behind)]($style))'
 #format = '([](fg:crust)[($all_status$ahead_behind)]($style)[ ](fg:crust))'
 #format = '([\[$all_status$ahead_behind\]]($style))'
+diverged = '󱍸'
+ahead = '󰳢'
+behind = '󰳜'
 
 [status]
 disabled = true
