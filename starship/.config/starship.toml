@@ -6,17 +6,26 @@ add_newline = false
 #[   ](fg:sky bg:sapphire)\
 #[ ](fg:sapphire)\
 format = """
+$username\
+$hostname\
+$shlvl\
 $directory\
+$vcsh\
 ([\
+\\[\
 $git_branch\
 $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
-](purple))\
+\\]\
+](purple) )\
 (\
 [ ](fg:crust)[$status](bg:crust)[ ](fg:crust)\
 )\
+$cmd_duration\
+$jobs\
+$status\
 $character\
 """
 #[](fg:crust)[](bg:crust fg:mauve)[ ](fg:crust)\
@@ -35,6 +44,9 @@ success_symbol = "[󰊠 >](lavender)"
 error_symbol = "[󱙜 >](red)"
 #vicmd_symbol = "[❮](green)"
 
+[cmd_duration]
+format = "[󰔛 $duration]($style) "
+
 [directory]
 truncation_length = 4
 # Catppuccin 'lavender'
@@ -42,12 +54,24 @@ style = "blue"
 
 [git_branch]
 style = "purple"
-format = '[\[$symbol$branch\]]($style) '
+ignore_branches = ["main"]
+format = "[$symbol$branch]($style)"
+#format = '[\[$symbol$branch\]]($style) '
+
+[git_commit]
+format = "@[($hash)( $tag)]($style)"
+style = "purple"
+
+[git_metrics]
+disabled = true
 
 [git_status]
-style = "bg:crust"
+#style = "bg:crust"
+style = "purple"
+#style = "red"
 #format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#394260)]($style)'
-format = '([](fg:crust)[($all_status$ahead_behind)]($style)[ ](fg:crust))'
+format = '([$all_status$ahead_behind]($style))'
+#format = '([](fg:crust)[($all_status$ahead_behind)]($style)[ ](fg:crust))'
 #format = '([\[$all_status$ahead_behind\]]($style))'
 
 [status]
