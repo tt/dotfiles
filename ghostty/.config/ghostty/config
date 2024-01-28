@@ -1,0 +1,29 @@
+#quit-after-last-window-closed = true
+
+# Colors can be changed by setting the 16 colors of `palette`, which each color
+# being defined as regular and bold.
+
+# https://github.com/mitchellh/ghostty/wiki/Themes
+theme = catppuccin-frappe
+
+# The syntax is "key = value". The whitespace around the equals doesn't matter.
+
+font-family = Fira Code Light
+#font-family = FiraCode Nerd Font Mono
+#font-family = Monaspace Krypton Var
+#adjust-cell-width = -2
+font-size = 16
+#font-family = CozetteVector
+#font-style-bold = false
+#font-style-italic = false
+#font-style-bold-italic = false
+#font-size = 18
+
+unfocused-split-opacity = 0.95
+
+#custom-shader = glitch.glsl
+#custom-shader = crt.glsl
+
+window-save-state = always
+#keybind = ctrl+z=close_surface
+#keybind = ctrl+d=new_split:right
