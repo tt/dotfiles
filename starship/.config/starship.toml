@@ -45,6 +45,7 @@ error_symbol = "[󱙜 >](red)"
 #vicmd_symbol = "[❮](green)"
 
 [cmd_duration]
+style = "yellow"
 format = "[󰔛 $duration]($style) "
 
 [directory]
