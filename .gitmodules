@@ -1,0 +1,18 @@
+[submodule "vim/.vim/pack/colors/start/catppuccin"]
+	path = vim/.vim/pack/colors/start/catppuccin
+	url = https://github.com/catppuccin/vim
+[submodule "vim/.vim/pack/plugins/start/fzf.vim"]
+	path = vim/.vim/pack/plugins/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "vim/.vim/pack/plugins/start/lightline.vim"]
+	path = vim/.vim/pack/plugins/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "vim/.vim/pack/syntax/start/rust.vim"]
+	path = vim/.vim/pack/syntax/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
+[submodule "vim/.vim/pack/syntax/start/vim-elixir"]
+	path = vim/.vim/pack/syntax/start/vim-elixir
+	url = https://github.com/elixir-editors/vim-elixir.git
+[submodule "vim/.vim/pack/syntax/start/vim-go"]
+	path = vim/.vim/pack/syntax/start/vim-go
+	url = https://github.com/fatih/vim-go.git
