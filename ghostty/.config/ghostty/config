@@ -8,6 +8,10 @@ theme = catppuccin-frappe
 
 # The syntax is "key = value". The whitespace around the equals doesn't matter.
 
+#macos-non-native-fullscreen = true
+#unfocused-split-opacity = 0.25
+# https://github.com/hroi/ghostty-themes
+#font-family = Fira Code
 font-family = Fira Code Light
 #font-family = FiraCode Nerd Font Mono
 #font-family = Monaspace Krypton Var
