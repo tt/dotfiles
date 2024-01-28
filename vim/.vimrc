@@ -4,6 +4,11 @@ if (has("termguicolors"))
   set termguicolors
   colorscheme catppuccin_frappe
 endif
+"
+"\ 'colorscheme': 'solarized',
+let g:lightline = {
+      \ 'colorscheme': 'catppuccin_frappe'
+      \ }
 
 if executable('fzf')
   set rtp+=/usr/local/opt/fzf
