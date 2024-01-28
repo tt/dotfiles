@@ -1,0 +1,12 @@
+set log-options = --show-signature
+
+bind main R !git rebase -i %(commit)^
+bind diff R !git rebase -i %(commit)^
+
+bind generic 9 !@bash -c "echo -n %(commit) | pbcopy"
+
+color cursor black magenta bold
+#color status default red
+
+color title-focus		white	black	bold
+color title-blur		white	black
