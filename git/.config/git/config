@@ -10,6 +10,8 @@
 	ff = merge --ff-only
 	lg = log --graph
 	st = status
+[branch]
+        sort = -committerdate
 [commit]
 	verbose = true
 [user]
