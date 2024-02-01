@@ -3,6 +3,7 @@
 \set COMP_KEYWORD_CASE upper
 \pset pager off
 \pset null '(null)'
+--  math bottom symbol
 
 -- https://www.digitalocean.com/community/tutorials/how-to-customize-the-postgresql-prompt-with-psqlrc-on-ubuntu-14-04
 -- https://wiki.postgresql.org/wiki/Psqlrc
