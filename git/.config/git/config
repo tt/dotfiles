@@ -14,6 +14,10 @@
         sort = -committerdate
 [commit]
 	verbose = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	defaultKeyCommand = ssh-add -L
 [user]
 	email = troels@thomsen.io
 	name = Troels Thomsen
