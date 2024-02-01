@@ -1,1 +1,3 @@
+set completion-ignore-case on
+
 set enable-bracketed-paste on
