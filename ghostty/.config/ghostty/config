@@ -11,8 +11,8 @@ theme = catppuccin-frappe
 #macos-non-native-fullscreen = true
 #unfocused-split-opacity = 0.25
 # https://github.com/hroi/ghostty-themes
-#font-family = Fira Code
-font-family = Fira Code Light
+font-family = Fira Code
+#font-family = Fira Code Light
 #font-family = FiraCode Nerd Font Mono
 #font-family = Monaspace Krypton Var
 #adjust-cell-width = -2
