@@ -86,6 +86,9 @@ format = '[$symbol]($style) '
 symbol = '󱙝'
 style = 'red'
 
+[username]
+format = '[\($user\)]($style) '
+
 # palette tables should be last in the config ⚓️
 [palettes.catppuccin_macchiato]
 rosewater = "#f4dbd6"
