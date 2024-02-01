@@ -81,9 +81,10 @@ ahead = '󰳢'
 behind = '󰳜'
 
 [status]
-disabled = true
-format = '[$symbol $status]($style)'
-style = 'bg:crust fg:red'
+disabled = false
+format = '[$symbol]($style) '
+symbol = '󱙝'
+style = 'red'
 
 # palette tables should be last in the config ⚓️
 [palettes.catppuccin_macchiato]
