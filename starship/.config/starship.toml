@@ -42,8 +42,8 @@ palette = "catppuccin_frappe"
 #success_symbol = "[\\$](lavender)"
 #error_symbol = "[\\$](red)"
 # 󰊠 󰧵 󱙝 󱙜
-success_symbol = "[󰊠 >](lavender)"
-error_symbol = "[󱙜 >](red)"
+success_symbol = "[\\$](lavender)"
+error_symbol = "[\\$](red)"
 #vicmd_symbol = "[❮](green)"
 
 [cmd_duration]
