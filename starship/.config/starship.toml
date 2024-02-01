@@ -22,14 +22,12 @@ $git_metrics\
 $git_status\
 \\]\
 ](purple) )\
-(\
-[ ](fg:crust)[$status](bg:crust)[ ](fg:crust)\
-)\
 $cmd_duration\
 $jobs\
 $status\
 $character\
 """
+#[ ](fg:crust)[$status](bg:crust)[ ](fg:crust)\
 #[](fg:crust)[](bg:crust fg:mauve)[ ](fg:crust)\
 #[](fg:mauve)[](bg:mauve fg:crust)[ ](fg:mauve)\
 
