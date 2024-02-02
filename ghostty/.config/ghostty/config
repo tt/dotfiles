@@ -1,5 +1,7 @@
 #quit-after-last-window-closed = true
 
+window-theme = system
+
 # Colors can be changed by setting the 16 colors of `palette`, which each color
 # being defined as regular and bold.
 
