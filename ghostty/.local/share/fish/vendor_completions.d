@@ -1,0 +1,1 @@
+/Applications/Ghostty.app/Contents/Resources/fish/vendor_completions.d
