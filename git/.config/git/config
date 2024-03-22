@@ -20,6 +20,8 @@
 	format = ssh
 [gpg "ssh"]
 	defaultKeyCommand = ssh-add -L
+[merge]
+	ff = false
 [user]
 	email = troels@thomsen.io
 	name = Troels Thomsen
