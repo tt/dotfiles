@@ -23,3 +23,5 @@
 [user]
 	email = troels@thomsen.io
 	name = Troels Thomsen
+[merge]
+	ff = false
