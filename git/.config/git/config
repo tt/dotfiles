@@ -29,6 +29,8 @@
 	diffFilter = delta --color-only --diff-highlight
 [merge]
 	ff = false
+[pull]
+	ff = only
 [user]
 	email = troels@thomsen.io
 	name = Troels Thomsen
