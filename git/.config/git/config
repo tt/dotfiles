@@ -25,6 +25,8 @@
 	format = ssh
 [gpg "ssh"]
 	defaultKeyCommand = ssh-add -L
+[init]
+	defaultBranch = main
 [interactive]
 	diffFilter = delta --color-only --diff-highlight
 [merge]
