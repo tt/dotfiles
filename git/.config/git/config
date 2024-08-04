@@ -14,6 +14,8 @@
         sort = -committerdate
 [commit]
 	verbose = true
+[core]
+	pager = delta --diff-highlight | less -R
 [diff]
 	colorMoved = dimmed-zebra
 	colorMovedWS = allow-indentation-change
@@ -23,6 +25,8 @@
 	format = ssh
 [gpg "ssh"]
 	defaultKeyCommand = ssh-add -L
+[interactive]
+	diffFilter = delta --color-only --diff-highlight
 [merge]
 	ff = false
 [user]
