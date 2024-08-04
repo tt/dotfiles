@@ -33,6 +33,8 @@
 	ff = false
 [pull]
 	ff = only
+[rebase]
+	autoSquash = true
 [user]
 	email = troels@thomsen.io
 	name = Troels Thomsen
