@@ -14,6 +14,9 @@
         sort = -committerdate
 [commit]
 	verbose = true
+[diff]
+	colorMoved = dimmed-zebra
+	colorMovedWS = allow-indentation-change
 [fetch]
 	prune = true
 [gpg]
